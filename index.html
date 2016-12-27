@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+	   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	   <title>Anastasia Nikitopoulou</title>
+	   <link href="css/style.css" type="text/css" rel="stylesheet">
+	   <!--Fonts-->
+	   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	   <!--Fontawesome icons-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	   
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	   <!--[if IE]><link rel="stylesheet" type="text/css"  href="http://www.mysite.com/css/ie.css" /><![endif]-->
+    </head>
+	<body onscroll="scrollSeite()">
+	    <div id="content">
+	        <section>
+		      <div class="first-background">
+			    <nav id="navigation">
+				    <div id="btn-menu" onclick="toggleMenu()">
+					   <hr />
+					   <hr />
+					   <hr />
+					</div>
+					<div class="menu" id="main-menu">
+					    <ul>
+						   <li class="li-menu" id="bio-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Bio/Repertoire</li>
+						   <li class="li-menu" id="listen-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Listen a song</li>
+						   <li class="li-menu" id="availlability-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Check Availlability</li>
+						   <li class="li-menu" id="contact-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Contact</li>
+					    </ul>
+					</div>
+				</nav>
+				<div class="div-img">
+			         <img src="profil.jpg" alt="Photo profil" />
+			    </div>
+				<div class="div-title">
+				     <h1>Anastasia Nikitopoulou</h1>
+					 <h2>Coctail Pianist</h2>
+					 <h3>Manchester, UK</h3>
+				</div>
+			  </div>
+		    </section>
+			<section id="bio">
+			    <div class="bio">
+				    <div id="bio-internal">
+				       <h2>Bio/Repertoire</h2>
+		               <p>Anastasia comes from new Conservatory of Thessaloniki in Greece. She has been played for a large range of events, from weddings and birthday parties to Drinks receptions, local events & ceremonies providing a light and charming background. Participating in various events including the national Piano competition, Anastasia demonstrated a distinctive creativity and natural professionalism and can adapt her large repertoire to the special needs that each occasion requires.</p>
+		               <p>She has played for Hilton Hotel and other various live concerts & local events covering a large variety of repertoire mainly focusing on light jazz, lounge, classical, current pop & hip hop. She is also more than willing to tailor her repertoire to your special requests after having a discussion or a chat in advance.</p>
+		               <p>For contact please fill out the <a href="#contact">enquiry form</a>.</p>
+					</div>
+				</div>
+		    </section>
+			<section id="listen">
+			    <div class="listen">
+				    <div id="listen-internal">
+				        <h2>Listen a song</h2>
+		                <p>Anastasia always keeps her repertoire up-to-date with new and more tracks. Below is an example of Anastasia's typical repertoire:</p>
+		                <ol>
+		                  <li></li>
+		                  <li></li>
+		                  <li></li>
+		                </ol>
+						<div class="three-balls">
+						    <div class="ball" id="ball-1">Weddings
+							</div>
+							<div class="ball" id="ball-2">Partys
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="availlability">
+			    <div class="availlability">
+				    <div id="availlability-internal">
+					    <h2>Check Availlability</h2>
+						<div class="calendar">
+						   <div id="months">
+						        <ul>
+							        <li class="prev" onclick="plusSlides(-1)">&#10094;</li>
+							        <li class="month">January<br>
+									2017</li>
+									<li class="month">February<br>
+									2017</li>
+									<li class="month">March<br>
+									2017</li>
+									<li class="month">April<br>
+									2017</li>
+									<li class="month">May<br>
+									2017</li>
+									<li class="month">Juny<br>
+									2017</li>
+									<li class="month">July<br>
+									2017</li>
+									<li class="month">August<br>
+									2017</li>
+									<li class="month">September<br>
+									2017</li>
+									<li class="month">Octomber<br>
+									2017</li>
+									<li class="month">November<br>
+									2017</li>
+									<li class="month">December<br>
+									2017</li>
+                                    <li class="next" onclick="plusSlides(1)">&#10095;</li>								
+							    </ul>
+						   </div>
+						   <div id="days">
+						        <ul>
+							        <li>Mo</li>
+									<li>Tu</li>
+									<li>We</li>
+									<li>Th</li>
+									<li>Fr</li>
+									<li>Sa</li>
+									<li>Su</li>
+							    </ul>
+						   </div>
+						   <div id="weekdays">
+						        <ul class="mySlides" id="january">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li class="availlable">1</li>
+									<li class="availlable">2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li class="availlable">6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+									<li>11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li class="availlable">22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li>30</li>
+									<li>31</li>
+								</ul>
+								<ul class="mySlides" id="february">
+								    <li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li class="availlable">10</li>
+									<li>11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li class="availlable">15</li>
+									<li>16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li class="availlable">22</li>
+									<li>23</li>
+									<li>24</li>
+									<li class="availlable">25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+								</ul>
+								<ul class="mySlides" id="march">
+								    <li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li class="availlable">8</li>
+									<li>9</li>
+									<li>10</li>
+									<li>11</li>
+									<li>12</li>
+									<li>13</li>
+									<li class="availlable">14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li class="availlable">18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li>22</li>
+									<li class="availlable">23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li class="availlable">27</li>
+									<li class="availlable">28</li>
+									<li>29</li>
+									<li>30</li>
+									<li>31</li>
+								</ul>
+								<ul class="mySlides" id="april">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+									<li>11</li>
+									<li class="availlable">12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li class="availlable">20</li>
+									<li class="availlable">21</li>
+									<li>22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li class="availlable">28</li>
+									<li>29</li>
+									<li>30</li>
+								</ul>
+								<ul class="mySlides" id="may">
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li class="availlable">5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+									<li>11</li>
+									<li>12</li>
+									<li>13</li>
+									<li class="availlable">14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li class="availlable">20</li>
+									<li>21</li>
+									<li class="availlable">22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li class="availlable">28</li>
+									<li>29</li>
+									<li>30</li>
+									<li>31</li>
+								</ul>
+								<ul class="mySlides" id="juny">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li class="availlable">6</li>
+									<li>7</li>
+									<li>8</li>
+									<li class="availlable">9</li>
+									<li>10</li>
+									<li>11</li>
+									<li>12</li>
+									<li class="availlable">13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li>20</li>
+									<li class="availlable">21</li>
+									<li>22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li class="availlable">30</li>
+								</ul>
+								<ul class="mySlides" id="july">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li class="availlable">1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li class="availlable">9</li>
+									<li>10</li>
+									<li>11</li>
+									<li class="availlable">12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li class="availlable">20</li>
+									<li>21</li>
+									<li>22</li>
+									<li class="availlable">23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li>30</li>
+									<li class="availlable">31</li>
+								</ul>
+								<ul class="mySlides" id="august">
+								    <li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+									<li class="availlable">11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li class="availlable">18</li>
+									<li>19</li>
+									<li class="availlable">20</li>
+									<li>21</li>
+									<li>22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li class="availlable">27</li>
+									<li>28</li>
+									<li>29</li>
+									<li>30</li>
+									<li>31</li>
+								</ul>
+								<ul class="mySlides" id="september">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li class="availlable">4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li class="availlable">9</li>
+									<li>10</li>
+									<li class="availlable">11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li class="availlable">16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li>22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li class="availlable">30</li>
+								</ul>
+								<ul class="mySlides" id="october">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li class="availlable">4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li class="availlable">9</li>
+									<li>10</li>
+									<li>11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li class="availlable">18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li class="availlable">22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li class="availlable">28</li>
+									<li>29</li>
+									<li>30</li>
+									<li>31</li>
+								</ul>
+								<ul class="mySlides" id="november">
+								    <li></li>
+									<li></li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li class="availlable">5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+									<li class="availlable">11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li class="availlable">16</li>
+									<li>17</li>
+									<li>18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li>22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li class="availlable">30</li>
+								</ul>
+								<ul class="mySlides" id="december">
+								    <li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+									<li class="availlable">1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li class="availlable">9</li>
+									<li>10</li>
+									<li>11</li>
+									<li>12</li>
+									<li>13</li>
+									<li>14</li>
+									<li>15</li>
+									<li>16</li>
+									<li>17</li>
+									<li class="availlable">18</li>
+									<li>19</li>
+									<li>20</li>
+									<li>21</li>
+									<li class="availlable">22</li>
+									<li>23</li>
+									<li>24</li>
+									<li>25</li>
+									<li>26</li>
+									<li>27</li>
+									<li>28</li>
+									<li>29</li>
+									<li class="availlable">30</li>
+									<li class="availlable">31</li>
+								</ul>
+						   </div>
+						</div>
+						<div id="green-kist">
+						   <div id="green">
+						   </div>
+						   <div id="avail-dates">Availlable dates</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact">
+			    <div class="contact">
+				    <div id="contact-internal">
+					    <h2>Contact</h2>
+						<p>You can contact Anastasia on:
+		                <br>Email:
+		                </p>
+		                <p>Or if you prefer, please fill out the form below for any question that you might have regarding prices, availability, events & parties.</p>
+					    <form name="myForm" method="POST" onsubmit="return validateForm()">
+						    <div class="name_mail">
+							    <input type="text" name="name" id="name-usr" placeholder="Your name"><br>								
+							</div>
+							<div class="name_mail">
+							    <input type="text" name="email" id="mail-usr" placeholder="Your Email"><br>
+							</div>
+							<div class="msg">
+							    <textarea name="message" id="msg-usr"></textarea>
+							</div>
+							<div class="div-submit">
+		                        <input type="submit" value="Send">
+		                    </div>
+						</form>
+					</div>
+				    <div class="copyright">&copy; 2016. All rights reserved.
+			           <i class="fa fa-angle-double-up" style="font-size:24px;color:silver;" id="top" onclick="TopScrollTo()"></i>
+			        </div>
+			    </div>
+			</section>
+	    </div>
+	    <script src="js/myjavascript.js" type="text/javascript"></script>
+		<script src="js/jquery.js" type="text/javascript"></script>
+	</body>
+</html>
