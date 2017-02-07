@@ -156,6 +156,7 @@ h2  {
 	color: #FFFFFF;
 }
 .three-balls  {
+	border: 1px solid red;
 	height: 100px;
 	margin-top: 50px;
 	position: relative;
@@ -197,12 +198,12 @@ h2  {
 }
 @keyframes moveDownUp  {
 	0%  {
-		left: 30px;
+		left: 10px;
 		bottom: 0px;
 	}
 	
 	100%  {
-		left: 30px;
+		left: 10px;
 		bottom: 15px;
 	}
 }
@@ -232,12 +233,12 @@ h2  {
 @keyframes moveUpDown  {
 	0%  {
 		bottom: 0px;
-		right: 30px;
+		right: 10px;
 	}
 	
 	100%  {
 		bottom: 15px;
-		right: 30px;
+		right: 10px;
 	}
 }
 .availlability  {
@@ -446,6 +447,28 @@ i  {
 }
 /*Smartphones (landscape)*/
 @media only screen and (min-width: 321px)  {
+@keyframes moveDownUp  {
+	0%  {
+		left: 30px;
+		bottom: 0px;
+	}
+	
+	100%  {
+		left: 30px;
+		bottom: 15px;
+	}
+}
+@keyframes moveUpDown  {
+	0%  {
+		bottom: 0px;
+		right: 30px;
+	}
+	
+	100%  {
+		bottom: 15px;
+		right: 30px;
+	}
+}
 .calendar  {
 	margin-left: auto;
 	margin-right: auto;
