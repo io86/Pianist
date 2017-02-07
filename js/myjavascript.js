@@ -8,54 +8,16 @@ function toggleMenu()  {
 	}
 }
 
-//Hover effect on li
-function hoverLi(x)  {
-	   x.style.borderBottom = "2px solid green";
+//Hover effect on li and cursor pointer
+function hoverLi(everyLi)  {
+	everyLi.style.borderBottom = "2px solid green";
+	everyLi.style.cursor = "pointer";
 }
-function hoverLiBack(x)  {
-	x.style.borderBottom  = "none";
-}
-
-//Scroll to the Top
-function TopScrollTo() {
-	var scrollVertical = window.pageYOffset;
-    if (scrollVertical != 0)  {
-       setTimeout(function() {
-          window.scrollTo(0,window.scrollY-200);
-          TopScrollTo();
-       }, 10);
-    }
+function hoverLiBack(everyLi)  {
+	everyLi.style.borderBottom  = "none";
 }
 
-//Validation of form
-function validateForm()  {
-	var name = document.myForm.name.value;
-	var email = document.myForm.email.value;
-	var message = document.myForm.message.value;
-	var lengthText = message.length;
-	
-	//Validate if all fields are filled
-    if ((name==null || name=="") || (email==null || email=="") || (message==null || message=="")) {
-	   alert("Please fill all the fields");
-	   return false;
-	}
-	
-	//Validate if the Name field contain only letters
-	if (!/^[a-zA-Z]*$/g.test(document.myForm.name.value)) {
-        alert("Please fill correctly your Name");
-        return false;
-    }
-	
-	//Validate the email address
-	var atposition = email.indexOf("@");
-	var dotposition = email.lastIndexOf(".");
-	
-	if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length) {
-		alert("Please enter a valid  Email address");
-		return false;
-	}
-}
-
+//The navigation bar is displayed with a black background when the srolled area is more than 100px
 function scrollSeite()  {
 	var scrollDistance = window.pageYOffset;
 	var navig = document.getElementById('navigation');
@@ -104,4 +66,50 @@ function showMonth(n)  {
 		month[i].style.display = "none";
 	}
 	month[slideMonth-1].style.display = "block";
+}
+
+//Validation of form
+function validateForm()  {
+	var name = document.myForm.name.value;
+	var email = document.myForm.email.value;
+	var message = document.myForm.message.value;
+	var lengthText = message.length;
+	
+	//Validate if all fields are filled
+    if ((name==null || name=="") || (email==null || email=="") || (message==null || message=="")) {
+	   alert("Please fill all the fields");
+	   return false;
+	}
+	
+	//Validate if the Name field contain only letters
+	if (!/^[a-zA-Z]*$/g.test(document.myForm.name.value)) {
+        alert("Please fill correctly your Name");
+        return false;
+    }
+	
+	//Validate the email address
+	var atposition = email.indexOf("@");
+	var dotposition = email.lastIndexOf(".");
+	
+	if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length) {
+		alert("Please enter a valid  Email address");
+		return false;
+	}
+}
+
+//Cursor pointer on the button of the form
+function hoverButton()  {
+	var buttonForm = document.getElementById('button-form');
+	buttonForm.style.cursor = "pointer";
+}
+
+//Scroll to the Top
+function TopScrollTo() {
+	var scrollVertical = window.pageYOffset;
+    if (scrollVertical != 0)  {
+       setTimeout(function() {
+          window.scrollTo(0,window.scrollY-200);
+          TopScrollTo();
+       }, 10);
+    }
 }
