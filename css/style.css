@@ -174,72 +174,14 @@ h2  {
 	width: 80px;
 }
 #ball-1  {
-	-webkit-animation-name: moveDownUp; /*Chrome, Safari*/
-	-moz-animation-name: moveDownUp; /*Mozilla*/
-	-o-animation-name: moveDownUp;
-	animation-name: moveDownUp; /*Standar syntax*/
-	-webkit-animation-duration: 1s; /*Chrome, Safari*/
-	-moz-animation-duration: 1s; /*Mozilla*/
-	-o-animation-duration: 1s; /*Opera*/
-	animation-duration: 1s; /*Standar syntax*/
-    -webkit-animation-timing-function: linear; /*Chrome, Safari*/
-	-moz-animation-timing-function: linear; /*Mozilla*/
-	-o-animation-timing-function: linear; /*Opera*/
-	animation-timing-function: linear; /*Standar syntax*/
-	-webkit-animation-iteration-count: infinite; /*Chrome, Safari*/
-	-moz-animation-iteration-count: infinite; /*Mozilla*/
-	-o-animation-iteration-count: infinite; /*Opera*/
-	animation-iteration-count: infinite; /*Standar syntax*/
-	-webkit-animation-direction: alternate-reverse; /*Chrome, Safari*/
-	-moz-animation-direction: alternate-reverse; /*Mozilla*/
-	-o-animation-direction: alternate-reverse; /*Opera*/
-	animation-direction: alternate-reverse; /*Standar syntax*/
 	position: absolute;
-}
-@keyframes moveDownUp  {
-	0%  {
-		left: 10px;
-		bottom: 0px;
-	}
-	
-	100%  {
-		left: 10px;
-		bottom: 15px;
-	}
+	bottom: 5px;
+	left: 10px;
 }
 #ball-2  {
-	-webkit-animation-name: moveUpDown; /*Chrome, Safari*/
-	-moz-animation-name: moveUpDown; /*Mozilla*/
-	-o-animation-name: moveUpDown; /*Opera*/
-	animation-name: moveUpDown; /*Standar syntax*/
-	-webkit-animation-duration: 1s; /*Chrome, Safari*/
-	-moz-animation-duration: 1s; /*Mozilla*/
-	-o-animation-duration: 1s; /*Opera*/
-	animation-duration: 1s; /*Standar syntax*/
-	-webkit-animation-timing-function: linear; /*Chrome, Safari*/
-	-moz-animation-timing-function: linear; /*Mozilla*/
-	-o-animation-timing-function: linear; /*Opera*/
-	animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite; /*Chrome, Safari*/
-	-moz-animation-iteration-count: infinite; /*Mozilla*/
-	-o-animation-iteration-count: infinite; /*Opera*/
-	animation-iteration-count: infinite; /*Standar syntax*/
-	-webkit-animation-direction: alternate; /*Chrome, Safari*/
-	-moz-animation-direction: alternate; /*Mozilla*/
-	-o-animation-direction: alternate; /*Opera*/
-	animation-direction: alternate; /*Standar syntax*/
 	position: absolute;
-}
-@keyframes moveUpDown  {
-	0%  {
-		bottom: 0px;
-		right: 10px;
-	}
-	
-	100%  {
-		bottom: 15px;
-		right: 10px;
-	}
+	bottom: 5px;
+	right: 10px;
 }
 .availlability  {
 	height: 500px;
@@ -447,26 +389,70 @@ i  {
 }
 /*Smartphones (landscape)*/
 @media only screen and (min-width: 321px)  {
+#ball-1  {
+	-webkit-animation-name: moveDownUp; /*Chrome, Safari*/
+	-moz-animation-name: moveDownUp; /*Mozilla*/
+	-o-animation-name: moveDownUp;
+	animation-name: moveDownUp; /*Standar syntax*/
+	-webkit-animation-duration: 1s; /*Chrome, Safari*/
+	-moz-animation-duration: 1s; /*Mozilla*/
+	-o-animation-duration: 1s; /*Opera*/
+	animation-duration: 1s; /*Standar syntax*/
+    -webkit-animation-timing-function: linear; /*Chrome, Safari*/
+	-moz-animation-timing-function: linear; /*Mozilla*/
+	-o-animation-timing-function: linear; /*Opera*/
+	animation-timing-function: linear; /*Standar syntax*/
+	-webkit-animation-iteration-count: infinite; /*Chrome, Safari*/
+	-moz-animation-iteration-count: infinite; /*Mozilla*/
+	-o-animation-iteration-count: infinite; /*Opera*/
+	animation-iteration-count: infinite; /*Standar syntax*/
+	-webkit-animation-direction: alternate-reverse; /*Chrome, Safari*/
+	-moz-animation-direction: alternate-reverse; /*Mozilla*/
+	-o-animation-direction: alternate-reverse; /*Opera*/
+	animation-direction: alternate-reverse; /*Standar syntax*/
+}
 @keyframes moveDownUp  {
 	0%  {
-		left: 30px;
+		left: 10px;
 		bottom: 0px;
 	}
 	
 	100%  {
-		left: 30px;
+		left: 10px;
 		bottom: 15px;
 	}
+}
+#ball-2  {
+	-webkit-animation-name: moveUpDown; /*Chrome, Safari*/
+	-moz-animation-name: moveUpDown; /*Mozilla*/
+	-o-animation-name: moveUpDown; /*Opera*/
+	animation-name: moveUpDown; /*Standar syntax*/
+	-webkit-animation-duration: 1s; /*Chrome, Safari*/
+	-moz-animation-duration: 1s; /*Mozilla*/
+	-o-animation-duration: 1s; /*Opera*/
+	animation-duration: 1s; /*Standar syntax*/
+	-webkit-animation-timing-function: linear; /*Chrome, Safari*/
+	-moz-animation-timing-function: linear; /*Mozilla*/
+	-o-animation-timing-function: linear; /*Opera*/
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite; /*Chrome, Safari*/
+	-moz-animation-iteration-count: infinite; /*Mozilla*/
+	-o-animation-iteration-count: infinite; /*Opera*/
+	animation-iteration-count: infinite; /*Standar syntax*/
+	-webkit-animation-direction: alternate; /*Chrome, Safari*/
+	-moz-animation-direction: alternate; /*Mozilla*/
+	-o-animation-direction: alternate; /*Opera*/
+	animation-direction: alternate; /*Standar syntax*/
 }
 @keyframes moveUpDown  {
 	0%  {
 		bottom: 0px;
-		right: 30px;
+		right: 10px;
 	}
 	
 	100%  {
 		bottom: 15px;
-		right: 30px;
+		right: 10px;
 	}
 }
 .calendar  {
