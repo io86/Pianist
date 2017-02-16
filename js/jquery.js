@@ -1,4 +1,9 @@
 $(document).ready(function()  {
+	//Animated title
+    $('.div-title h1').addClass('animated fadeInDown');
+	$('.div-title h2').addClass('animated fadeInUp');
+	$('.div-title h3').addClass('animated fadeIn');
+	
 	//Scroll Bio
 	$('#bio-li').click(function()  {
 		$('html, body').animate({scrollTop : 1000}, 800);
