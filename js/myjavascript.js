@@ -1,6 +1,6 @@
 //Show-hide menu
 function toggleMenu()  {
-	var menu = document.getElementById('main-menu');
+	var menu = document.getElementById('ulNav');
 	if (menu.style.display == "block") {
 	    menu.style.display = "none";
 	} else {
@@ -82,7 +82,7 @@ function validateForm()  {
 	}
 	
 	//Validate if the Name field contain only letters
-	if (!/^[a-zA-Z]*$/g.test(document.myForm.name.value)) {
+	if (!/[a-zA-Z\s]+/.test(document.myForm.name.value)) {
         alert("Please fill correctly your Name");
         return false;
     }
