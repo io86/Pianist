@@ -55,19 +55,21 @@ $(document).ready(function()  {
 	});
 	
 	//enquiry
-	$('.enquiry').mouseenter(function()  {
-		$(this).css("cursor", "pointer");
-	});
-	$('.enquiry').click(function()  {
-		if (widthWindow < 450)  {
-			$('html, body').animate({scrollTop: 3150}, 800);
-			return false;
-		} else if (widthWindow < 600)  {
-			$('html, body').animate({scrollTop: 2950}, 800);
-			return false;
-		} else {
-			$('html, body').animate({scrollTop: 2800}, 800);
-			return false;
-		}
+	$('.enquiry').on({
+		mouseenter: function()  {
+		    $(this).css("cursor", "pointer");
+	},
+	    click: function()  {
+		    if (widthWindow < 450)  {
+			    $('html, body').animate({scrollTop: 3150}, 800);
+			    return false;
+		    } else if (widthWindow < 600)  {
+			    $('html, body').animate({scrollTop: 2950}, 800);
+			    return false;
+		    } else {
+			    $('html, body').animate({scrollTop: 2800}, 800);
+			    return false;
+		    }
+	    }
 	});
 });
