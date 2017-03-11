@@ -19,7 +19,7 @@ a  {
 	height: 1%;
 }
 #wraper {
-	height: 3950px;
+	height: 4250px;
 	width: 100%;
 }
 /*First section with background image*/
@@ -106,6 +106,7 @@ a  {
 /*Second section with bio*/
 .bio  {
 	height: 1100px;
+	margin-top: -20px;
 	width: 100%;
 }
 .bio-internal  {
@@ -129,13 +130,13 @@ a  {
 }
 /*Third section with listen sample and balls*/
 .listen  {
-	background-image: url('image_1.jpg');
+    background-image: url('image_1.jpg');
 	-webkit-background-size: cover; /*Chrome 1.0, Safari 3.0*/
 	-moz-background-size: cover; /*Mozilla 3.6*/
 	-o-background-size: cover; /*Opera 10.0*/
 	background-size: cover; /*Standar syntax*/
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 800px;
 	width: 100%;
 }
 .listen-internal  {
@@ -153,6 +154,18 @@ a  {
 	font-size: 1.2em;
 	margin-top: 40px;
 	text-align: left;
+}
+.listen-internal ul  {
+	display: block;
+	list-style-type: none;
+}
+.listen-internal li  {
+	margin-top: 10px;
+}
+audio  {
+	height: 30px;
+	margin-top: 10px;
+	width: 80%;
 }
 .three-balls  {
 	height: 100px;
@@ -320,6 +333,7 @@ a  {
 /*Fourth section availlability with calendar*/
 .availlability  {
 	height: 500px;
+	margin-top: -20px;
 	width: 100%;
 }
 .availlability h2  {
@@ -527,6 +541,9 @@ input[type=submit]  {
 	margin-right: auto;
 	width: 80%;
 }
+audio  {
+	width: 200px;
+}
 .calendar  {
 	margin-left: auto;
 	margin-right: auto;
@@ -541,7 +558,7 @@ input[type=submit]  {
 /*Ein extra media Queries*/
 @media only screen and (min-width: 450px)  {
 #wraper  {
-	height: 3750px;
+	height: 4050px;
 }
 .bio  {
 	height: 900px;
@@ -580,7 +597,7 @@ input[type=submit]  {
 /*Tablets (portrait)*/
 @media only screen and (min-width: 600px)  {
 #wraper  {
-	height: 3650px;
+	height: 3950px;
 }
 .div-title  {
 	margin-left: auto;
