@@ -19,7 +19,9 @@ a  {
 	height: 1%;
 }
 #wraper {
-	height: 4230px;
+	height: 4210px;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 /*First section with background image*/
@@ -334,6 +336,7 @@ audio  {
 .availlability  {
 	height: 500px;
 	margin-top: -20px;
+	padding-top: 50px;
 	width: 100%;
 }
 .availlability h2  {
@@ -341,7 +344,7 @@ audio  {
 }
 .calendar  {
 	height: 250px;
-	margin-top: 80px;
+	margin-top: 50px;
 	width: 100%;
 }
 .months  {
@@ -480,7 +483,7 @@ audio  {
 	height: 800px;
 	padding-left: 15px;
 	padding-right: 10px;
-	padding-top: 10px;
+	padding-top: 50px;
 	width: 100%;
 }
 .contact-internal p  {
@@ -558,7 +561,7 @@ audio  {
 /*Ein extra media Queries*/
 @media only screen and (min-width: 450px)  {
 #wraper  {
-	height: 4050px;
+	height: 4030px;
 }
 .bio  {
 	height: 900px;
@@ -597,7 +600,7 @@ audio  {
 /*Tablets (portrait)*/
 @media only screen and (min-width: 600px)  {
 #wraper  {
-	height: 3950px;
+	height: 3930px;
 }
 .div-title  {
 	margin-left: auto;
@@ -642,7 +645,6 @@ audio  {
 .contact-internal  {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 30px;
 	width: 600px;
 }
 .form  {
