@@ -60,13 +60,13 @@ $(document).ready(function()  {
 	});
 	$('.enquiry').click(function()  {
 		if (widthWindow < 450)  {
-			$('html, body').animate({scrollTop: 3150}, 800);
+			$('html, body').animate({scrollTop: 3400}, 800);
 			return false;
 		} else if (widthWindow < 600)  {
-			$('html, body').animate({scrollTop: 2950}, 800);
+			$('html, body').animate({scrollTop: 3200}, 800);
 			return false;
 		} else {
-			$('html, body').animate({scrollTop: 2800}, 800);
+			$('html, body').animate({scrollTop: 3150}, 800);
 			return false;
 		}
 	});
