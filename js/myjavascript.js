@@ -8,13 +8,11 @@ function toggleMenu()  {
 	}
 }
 
-//Hover effect on li and cursor pointer
-function hoverLi(everyLi)  {
-	everyLi.style.borderBottom = "2px solid green";
-	everyLi.style.cursor = "pointer";
-}
-function hoverLiBack(everyLi)  {
-	everyLi.style.borderBottom  = "none";
+//Hover effect on li and cursor pointer, on submit button too
+function hoverLi(id, colorHover, cur)  {
+	hoverLink = document.getElementById(id);
+	hoverLink.style.borderBottom = colorHover;
+	hoverLink.style.cursor = cur;
 }
 
 //The navigation bar is displayed with a black background when the srolled area is more than 100px
@@ -95,12 +93,6 @@ function validateForm()  {
 		alert("Please enter a valid  Email address");
 		return false;
 	}
-}
-
-//Cursor pointer on the button of the form
-function hoverButton()  {
-	var buttonForm = document.getElementById('button-form');
-	buttonForm.style.cursor = "pointer";
 }
 
 //Scroll to the Top
