@@ -29,10 +29,10 @@
 					   <hr />
 					</div>
 					<ul id="ulNav">
-						<li class="li-menu" id="bio-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Bio/Repertoire</li>
-						<li class="li-menu" id="listen-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Listen a song</li>
-						<li class="li-menu" id="availlability-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Check Availlability</li>
-						<li class="li-menu" id="contact-li" onmouseover="hoverLi(this)" onmouseout="hoverLiBack(this)">Contact</li>
+						<li class="li-menu" id="bio-li" onmouseover="hoverLi(this.id, '2px solid green', 'pointer')" onmouseout="hoverLi(this.id, null)">Bio/Repertoire</li>
+						<li class="li-menu" id="listen-li" onmouseover="hoverLi(this.id, '2px solid green', 'pointer')" onmouseout="hoverLi(this.id, null)">Listen a song</li>
+						<li class="li-menu" id="availlability-li" onmouseover="hoverLi(this.id, '2px solid green', 'pointer')" onmouseout="hoverLi(this.id, null)">Check Availlability</li>
+						<li class="li-menu" id="contact-li" onmouseover="hoverLi(this.id, '2px solid green', 'pointer')" onmouseout="hoverLi(this.id, null)">Contact</li>
 					</ul>
 				</nav>
 				<div class="div-img">
@@ -579,11 +579,11 @@
 		            <br>Email:
 		            </p>
 		            <p>Or if you prefer, please fill out the form below for any question that you might have regarding prices, availability, events & parties.</p>
-				    <form action="" name="myForm" method="POST" onsubmit="return validateForm()" class="form">
-					    <input type="text" name="name" id="name-usr" placeholder="Your name">								
-					    <input type="text" name="email" id="mail-usr" placeholder="Your Email">
+				    <form action="#" name="myForm" method="POST" onsubmit="return validateForm()" class="form">
+					    <input type="text" name="name" id="name-usr" placeholder="Your name" autocomplete="on">								
+					    <input type="text" name="email" id="mail-usr" placeholder="Your Email" autocomplete="on">
 					    <textarea name="message" id="msg-usr"></textarea>
-	                    <input type="submit" value="Send" onmouseover="hoverButton()" id="button-form">
+	                    <input type="submit" value="Send" onmouseover="hoverLi(this.id, null, 'pointer')" id="button-form">
 					</form>
 				</div>
 				<div class="copyright">&copy; 2016. All rights reserved.
