@@ -24,7 +24,7 @@ function scrollSeite()  {
 	if ((scrollDistance > 100) && (scrnWidth > 801)) {
 		navig.style.background = "#000000";
 	} else {
-		navig.style.background = null;
+		navig.style.background = "transparent";
 	}
 }
 
