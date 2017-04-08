@@ -33,11 +33,13 @@ a  {
 	background-size: cover; /*Standar syntax*/
 	background-repeat: no-repeat;
 	border-top: 1px solid transparent;
+	display: block;
 	height: 1000px;
 	width: 100%;
 }
 /*Navigation with the button in mobile and tablets*/
 .navigation  {
+	display: block;
 	height: 50px;
 	margin: 0;
 	padding: 0;
@@ -107,8 +109,8 @@ a  {
 }
 /*Second section with bio*/
 .bio  {
+	display: block;
 	height: 1100px;
-	margin-top: -20px;
 	width: 100%;
 }
 .bio-internal  {
@@ -124,7 +126,7 @@ a  {
 .bio-internal p  {
 	font-size: 1.2em;
 	margin-top: 40px;
-	text-align: left;
+	text-align: justify;
 }
 .enquiry  {
 	color: green;
@@ -138,6 +140,7 @@ a  {
 	-o-background-size: cover; /*Opera 10.0*/
 	background-size: cover; /*Standar syntax*/
 	background-repeat: no-repeat;
+	display: block;
 	height: 800px;
 	width: 100%;
 }
@@ -147,6 +150,7 @@ a  {
 	padding-left: 15px;
 	padding-right: 10px;
 	padding-top: 10px;
+	text-align: justify;
 	width: 100%;
 }
 .listen h2  {
@@ -334,6 +338,7 @@ audio  {
 }
 /*Fourth section availlability with calendar*/
 .availlability  {
+	display: block;
 	height: 500px;
 	margin-top: -20px;
 	padding-top: 50px;
@@ -476,6 +481,7 @@ audio  {
 	background-size: cover; /*Standar syntax*/
 	background-repeat: no-repeat;
 	color: #FFFFFF;
+	display: block;
 	height: 850px;
 	width: 100%;
 }
@@ -488,6 +494,7 @@ audio  {
 }
 .contact-internal p  {
 	margin-top: 35px;
+	text-align: justify;
 }
 .form  {
 	height: 300px;
