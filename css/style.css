@@ -26,7 +26,7 @@ a  {
 }
 /*First section with background image*/
 .first-background  {
-	background-image: url('foto_4.jpg');
+	background-image: url('piano_1.jpg');
     -webkit-background-size: cover; /*Chrome 1.0, Safari 3.0*/
 	-moz-background-size: cover; /*Mozilla 3.6*/
 	-o-background-size: cover; /*Opera 10.0*/
@@ -97,6 +97,8 @@ a  {
 .div-title  {
 	color: #FFFFFF;
 	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 0;
 	text-align: center;
 	width: 100%;
@@ -474,7 +476,7 @@ audio  {
 }
 /*Fifth section with contact form and copyright*/
 .contact  {
-	background-image: url('foto_3.jpg');
+	background-image: url('piano_2.jpg');
 	-webkit-background-size: cover; /*Chrome 1.0, Safari 3.0*/
 	-moz-background-size: cover; /*Mozilla 3.6*/
 	-o-background-size: cover; /*Opera 10.0*/
@@ -611,9 +613,11 @@ audio  {
 #wraper  {
 	height: 3930px;
 }
+.div-img  {
+	margin-left: 170px;
+}
 .div-title  {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 50px;
 	width: 450px;
 }
 .div-title h1  {
