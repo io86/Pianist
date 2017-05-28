@@ -1,28 +1,44 @@
 $(document).ready(function()  {
 	
-	var headerH = $('#wraper #header').outerHeight();
-	var bioH = $('main .bio').outerHeight();
-	var listenH = $('main .listen').outerHeight();
-	var menuH = $('nav#menu').outerHeight();
+	//var headerH = $('#wraper #header').outerHeight();
+	//var bioH = $('main .bio').outerHeight();
+	//var listenH = $('main .listen').outerHeight();
+	//var menuH = $('nav#menu').outerHeight();
+	 
+	alert($('#bio').offset().top);
+	alert($('#listen').offset().top);
+	alert($('#contact').offset().top);
 	
 	//Scroll Bio
 	$('#menu #bio-li').click(function()  {
-		$('html, body').animate({scrollTop : headerH}, 800);
+		var bioOffset = $("#bio").offset(),
+		bioOffsetTop = bioOffset.top;
+		
+		$('html, body').animate({scrollTop : bioOffsetTop}, 800);
 	});
 	
 	//Scroll Listen
 	$('#menu #listen-li').click(function()  {
-		$('html, body').animate({scrollTop: (headerH + bioH )}, 800);
+        var listenOffset = $('#listen').offset();
+		var listenOffsetTop = listenOffset.top;
+	
+		$('html, body').animate({scrollTop: listenOffsetTop}, 800);
 	});
 	
 	//Scroll Contact
 	$('#menu #cont-li').click(function()  {
-		$('html, body').animate({scrollTop: (headerH + bioH + listenH - menuH )}, 800);
+		var contactOffset = $('#contact').offset();
+		var contactOffsetTop = contactOffset.top;
+		
+		$('html, body').animate({scrollTop: contactOffsetTop}, 800);
 	});
 	
 	//enquiry
 	$('p .enquiry').click(function()  {
-		$('html, body').animate({scrollTop: (headerH + bioH + listenH)}, 800);
+		var contactOffset = $('#contact').offset();
+		var contactOffsetTop = contactOffset.top;
+		
+		$('html, body').animate({scrollTop: contactOffsetTop}, 800);
 	});
 	
 	//enquiry
