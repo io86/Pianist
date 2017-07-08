@@ -1,7 +1,7 @@
-function laden(){
-	var name = document.getElementById('name');
-	var beruf = document.getElementById('beruf');
-	var stand = document.getElementById('stand');
+function laden() {
+	var name = document.getElementById('name'),
+	    beruf = document.getElementById('beruf'),
+	    stand = document.getElementById('stand');
 	
 	name.className = 'animated fadeInDown';
 	beruf.className = 'animated fadeInUp';
@@ -12,7 +12,7 @@ function laden(){
 //Toggle menu with click button
 
 
-function toggleMenu(){
+function toggleMenu() {
 	var menu = document.getElementById('menu');
 	menu.classList.toggle("open");
 }
@@ -21,7 +21,7 @@ function toggleMenu(){
 
 
 //Hover effect in menu
-function hoverLi(id, color, curs){
+function hoverLi(id, color, curs) {
 	var li = document.getElementById(id);
 	
 	li.style.borderTop = color;
@@ -30,7 +30,7 @@ function hoverLi(id, color, curs){
 }
 
 //"Unhover" effect in menu"
-function unhoverLi(id, color){
+function unhoverLi(id, color) {
 	var li = document.getElementById(id);
 	
 	li.style.borderBottom = color;
