@@ -516,6 +516,7 @@ div.calendar div.days-of-month  {
 table td  {
     font-size: 1em;
     height: 37px;
+    padding-top: 6px;
     width: 37px;
 }
 section.contact form  {
