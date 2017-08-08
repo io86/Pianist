@@ -1,0 +1,659 @@
+@charset "utf-8";
+body  {
+    font-size: 100%;
+    margin: 0;
+}
+*  {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer, header, main, nav, section  {
+    display: block;
+}
+#wraper  {
+    max-width: 2400px;
+    width: 100%;
+}
+header.header  {
+    background-image: url('../img/piano_1.jpg');
+    -webkit-background-size: cover; /*Chrome 1.0-4.0, Opera 10.0-10.5*/
+    -moz-background-size: cover; /*Safari 3.6-4.0*/
+    background-size: cover; /*Standar syntax*/
+    height: 320px;
+    position: relative;
+    width: 100%;
+}
+header div.btn-menu  {
+    background-color: #000000;
+    float: left;
+    height: 40px;
+    padding-top: 10px;
+    position: relative;
+    width: 40px;
+}
+header div.line-btn  {
+    background-color: darkGray;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+}
+div.line-btn:nth-child(2), div.line-btn:nth-child(3)  {
+    margin-top: 4px;
+}
+nav.navi  {
+    background: rgb(52, 49, 49);
+    background-color: rgba(52, 49, 49, 0.5);
+    box-shadow: 1px 1px 30px #ffffff;
+    display: none;
+    float: left;
+    height: 140px;
+    padding-top: 5px;
+    width: 60%;
+}
+nav ul.mobile-nav  {
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    margin-top: 0;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.mobile-nav li  {
+    cursor: pointer;
+    margin-top: 5px;
+}
+nav div.piano  {
+    display: none;
+}
+header div.title  {
+    color: #ffffff;
+    bottom: 0;
+    font-family: 'Tangerine', cursive;
+    height: 180px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+}
+div.title div.img-profil  {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    width: 80px;
+}
+div.img-profil img  {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+header h1  {
+    display: none;
+    margin-bottom: 0;
+}
+header h2  {
+    display: none;
+    margin-top: 0;
+}
+main  {
+    font-family: 'Open Sans',sans-serif;
+    width: 100%;
+}
+main section.about  {
+    padding-top: 50px;
+    width: 100%;
+}
+section.about h2  {
+    color: #4A4A4A;
+    letter-spacing: 3px;
+    margin-top: 0;
+    text-align: center;
+}
+section.about div.text-img-about  {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+section.about img  {
+    float: left;
+    height: 150px;
+    margin-right: 15px;
+    width: 60%;
+}
+section.about p  {
+    font-size: 0.9em;
+    text-align: justify;
+}
+section.about p:last-child  {
+    margin-top: 50px;
+}
+section.about span.green  {
+    color: green;
+    cursor: pointer;
+}
+main section.concerts  {
+    background-image: url('../img/concerts.jpg');
+    -webkit-background-size: cover; /*Chrome 1.0-4.0, Opera 10.0-10.5*/
+    -moz-background-size: cover; /*Safari 3.6-4.0*/
+    background-size: cover; /*Standar syntax*/
+    height: 2200px;
+    padding-top: 50px;
+    width: 100%;
+}
+section.concerts h2  {
+    color: #ffffff;
+    letter-spacing: 3px;
+    margin-top: 0;
+    text-align: center;
+}
+section.concerts div.live-concert  {
+    background-color: #f2f2f2;
+    float: left;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 80%;
+}
+section.concerts div.live-concert:nth-child(2)  {
+    margin-top: 50px;
+}
+div.live-concert p.date  {
+    color: #542576;
+    font-size: 1.3em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: right;
+}
+div.live-concert p.place  {
+    color: #542576;
+    margin-top: 0;
+    text-align: right;
+}
+div.live-concert p.inform-concert  {
+    color: #4A4A4A;
+    font-size: 0.9em;
+    margin-top: 50px;
+}
+div.live-concert button  {
+    background-color: #542576;
+    border: none;
+    color: #f2f2f2;
+    float: right;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding: 5px 4px;
+}
+main section.availability  {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 100%;
+}
+section.availability h2  {
+    color: #4A4A4A;
+    letter-spacing: 3px;
+    margin-top: 0;
+    text-align: center;
+}
+section.availability p.check-aval  {
+    font-style: italic;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+section.availability div.green-box  {
+    background-color: green;
+    float: left;
+    height: 6px;
+    margin-left: 10px;
+    width: 6px;
+}
+section.availability p.aval-dates  {
+    float: left;
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+section.availability div.calendar  {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 200px;
+}
+div.calendar div.months  {
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 20px;
+    width: 100%;
+}
+div.months ul.list-months  {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 10px;
+}
+ul.list-months li  {
+    text-align: center;
+}
+div.months p  {
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+div.calendar div.days  {
+    background-color: #808080;
+}
+div.days ul.list-days  {
+    font-size: 0.7em;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+ul.list-days li  {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 12.5%;
+}
+div.calendar div.days-of-month  {
+    background-color: #C0C0C0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+table td  {
+    display: inline-block;
+    font-size: 0.7em;
+    height: 25px;
+    margin-top: 4px;
+    padding-top: 3px;
+    text-align: center;
+    width: 22.8px;
+}
+td:nth-child(5), td:nth-child(6), td:nth-child(13), td:nth-child(21), td:nth-child(25) {
+    background-color: green;
+}
+main section.contact  {
+    background-image: url('../img/foto_3.jpg');
+    -webkit-background-size: cover; /*Chrome 1.0-4.0, Opera 10.0-10.5*/
+    -moz-background-size: cover; /*Safari 3.6-4.0*/
+    background-size: cover; /*Standar syntax*/
+    padding-bottom: 150px;
+    padding-top: 50px;
+    width: 100%;
+}
+section.contact h2  {
+    color: #ffffff;
+    letter-spacing: 3px;
+    margin-top: 0;
+    text-align: center;
+}
+section.contact form  {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 90%;
+}
+form input[type=text]  {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    margin-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    padding-top: 13px;
+    width: 80%;
+}
+form textarea  {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    height: 150px;
+    margin-top: 10px;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 80%;
+}
+form input[type=submit]  {
+    background-color: #B3B5BA;
+    border: none;
+    color: #000000;
+    margin-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    padding-top: 13px;
+    width: 80%;
+}
+section.contact i  {
+    border: 1px solid silver;
+    color: silver;
+    cursor: pointer;
+    font-size: 32px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+    padding: 5px 10px;
+}
+footer.footer  {
+    background-color: #000000;
+    font-family: 'Open Sans',sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+footer.footer p  {
+    color: #ffffff;
+    text-align: center;
+}
+/*Classes*/
+.rotate-first  {
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    -webkit-transform: rotate(45deg); /*Chrome 4.0-36.0, Safari 3.2-9.0, Opera 15.0-23.0*/
+    -moz-transform: rotate(45deg); /*Firefox 3.5-16.0*/
+    -o-transform: rotate(45deg); /*Opera 10.5*/
+    -ms-transform: rotate(45deg); /*IE 9.0-10.0*/
+    transform: rotate(45deg); /*Standar syntax*/
+}
+.rotate-second  {
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    -webkit-transform: rotate(-45deg); /*Chrome 4.0-36.0, Safari 3.2-9.0, Opera 15.0-23.0*/
+    -moz-transform: rotate(-45deg); /*Firefox 3.5-16.0*/
+    -o-transform: rotate(-45deg); /*Opera 10.5*/
+    -ms-transform: rotate(-45deg); /*IE 9.0-10.0*/
+    transform: rotate(-45deg); /*Standar syntax*/
+}
+.available  {
+    background-color: green;
+}
+@media only screen and (min-width: 321px){
+header.header  {
+    height: 400px;
+}
+nav.navi  {
+    height: 150px;
+    width: 250px;
+}
+nav.navi ul.mobile-nav  {
+    display: none;
+}
+nav div.piano  {
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    display: block;
+    font-family: 'Open Sans',sans-serif;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 200px;
+}
+nav div.white  {
+    border-right: 1px solid #000000;
+    float: left;
+    height: 100%;
+    width: 28.42px;
+}
+nav div.black  {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    height: 85px;
+    padding-left: 5px;
+    padding-top: 2px;
+    position: absolute;
+    width: 20px;
+}
+nav div.black:nth-child(8)  {
+    left: 18px;
+    top: 0;
+}
+nav div.black:nth-child(9)  {
+    left: 47px;
+    top: 0;
+}
+nav div.black:nth-child(10)  {
+    left: 103px;
+    top: 0;
+}
+nav div.black:nth-child(11)  {
+    left: 132px;
+    top: 0;
+}
+nav div.black:nth-child(12)  {
+    left: 160px;
+    top: 0;
+}
+div.black p  {
+    color: #ffffff;
+    font-size: 0.6em;
+    font-weight: bold;
+    line-height: 10px;
+    margin-top: 0;
+}
+header div.title  {
+    height: 200px;
+    width: 280px;
+}
+div.title div.img-profil  {
+    height: 100px;
+    width: 100px;
+}
+header h1  {
+    font-size: 2.3em;
+}
+header h2  {
+    font-size: 2em;
+}
+section.about h2  {
+    letter-spacing: 5px;
+}
+section.about div.text-img-about  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+section.about img  {
+    height: 150px;
+    width: 150px;
+}
+section.about p  {
+    font-size: 1em;
+}
+main section.concerts  {
+    padding-top: 70px;
+}
+section.concerts h2  {
+    letter-spacing: 5px;
+}
+section.concerts div.live-concert  {
+    clear: left;
+    margin-top: 80px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 280px;
+}
+section.concerts div.live-concert:nth-child(2)  {
+    margin-top: 80px;
+}
+section.availability h2  {
+    letter-spacing: 5px;
+}
+section.availability p.check-aval  {
+    font-size: 0.9em;
+}
+section.availability div.calendar  {
+    width: 300px;
+}
+div.days ul.list-days  {
+    font-size: 1em;
+}
+div.calendar div.days-of-month  {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+table td  {
+    font-size: 1em;
+    height: 37px;
+    width: 37px;
+}
+section.contact form  {
+    padding-left: 10px;
+    width: 300px;
+}
+section.contact h2  {
+    letter-spacing: 5px;
+}
+form input[type=text]  {
+    width: 280px;
+}
+form textarea  {
+    width: 280px;
+}
+form input[type=submit]  {
+    width: 280px;
+}
+}
+@media only screen and (min-width: 600px){
+header.header  {
+    height: 600px;
+}
+nav.navi  {
+    height: 250px;
+    margin-left: 30px;
+    width: 450px;
+}
+nav div.piano  {
+    height: 200px;
+    width: 350px;
+}
+nav div.white  {
+    width: 49.85px;
+}
+nav div.black  {
+    height: 125px;
+    padding-left: 10px;
+    width: 35px;
+}
+nav div.black:nth-child(8)  {
+    left: 33px;
+}
+nav div.black:nth-child(9)  {
+    left: 82px;
+}
+nav div.black:nth-child(10)  {
+    left: 181px;
+}
+nav div.black:nth-child(11)  {
+    left: 232px;
+}
+nav div.black:nth-child(12)  {
+    left: 282px;
+}
+div.black p  {
+    font-style: italic;
+    font-size: 0.8em;
+    line-height: 15px;
+}
+header div.title  {
+    height: 300px;
+    width: 400px;
+}
+div.title div.img-profil  {
+    height: 130px;
+    width: 130px;
+}
+header h1  {
+    font-size: 3em;
+}
+header h2  {
+    font-size: 2.5em;
+}
+section.about h2  {
+    font-size: 2em;
+    letter-spacing: 15px;
+}
+section.about div.text-img-about  {
+    width: 500px;
+}
+section.about img  {
+    height: 300px;
+    width: 200px;
+}
+main section.concerts  {
+    height: 2000px;
+}
+section.concerts h2  {
+    font-size: 2em;
+    letter-spacing: 15px;
+}
+section.concerts div.live-concert  {
+    width: 400px;
+}
+section.availability h2  {
+    font-size: 2em;
+    letter-spacing: 15px;
+}
+section.availability p.check-aval  {
+    margin-left: 25px;
+}
+section.availability div.green-box  {
+    margin-left: 25px;
+}
+section.contact form  {
+    padding-left: 25px;
+    width: 400px;
+}
+section.contact h2  {
+    font-size: 2em;
+    letter-spacing: 15px;
+}
+form input[type=text]  {
+    width: 350px;
+}
+form textarea  {
+    width: 350px;
+}
+form input[type=submit]  {
+    width: 350px;
+}
+}
+@media only screen and (min-width: 801px){
+header.header  {
+    height: 600px;
+}
+section.about div.text-img-about  {
+    width: 700px;
+}
+section.about img  {
+    height: 400px;
+    width: 300px;
+}
+main section.concerts  {
+    height: 1900px;
+}
+section.concerts div.live-concert  {
+    width: 600px;
+}
+}
