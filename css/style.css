@@ -60,6 +60,13 @@ nav ul.mobile-nav  {
     list-style-type: none;
     text-align: center;
 }
+ul.mobile-nav li.gallery-mobile a:link, div.gallery-black a:link  {
+    color: #ffffff;
+    text-decoration: none;
+}
+ul.mobile-nav li.gallery-mobile a:visited, div.gallery-black a:visited  {
+    color: #ffffff;
+}
 ul.mobile-nav li  {
     border: 2px solid transparent;
     cursor: pointer;
