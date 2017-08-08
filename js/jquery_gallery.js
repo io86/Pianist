@@ -1,10 +1,11 @@
 $(document).ready(function () {
-    
+
     //Array with src of photoes
-	var srcArray = ['img/gallery_1.jpg', 'img/gallery_2.jpg', 'img/gallery_3.jpg', 'img/gallery_4.jpg', 'img/gallery_5.jpg', 'img/gallery_6.jpg', 'img/gallery_7.jpg', 'img/gallery_8.jpg', 'img/gallery_9.jpg'];
+	var srcArray = ['../img/gallery_1.jpg', '../img/gallery_2.jpg', '../img/gallery_3.jpg', '../img/gallery_4.jpg', '../img/gallery_5.jpg', '../img/gallery_6.jpg', '../img/gallery_7.jpg', '../img/gallery_8.jpg', '../img/gallery_9.jpg'];
     
     //Display image that is clicked
     $('.inside-main img').click(function () {
+
         var src = $(this).attr('src');
         
         $('.modal-box').css('display', 'block');
@@ -38,4 +39,5 @@ $(document).ready(function () {
     $('.close').click(function () {
         $('.modal-box').css('display', 'none'); 
     });
+    
 });
