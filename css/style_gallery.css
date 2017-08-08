@@ -65,45 +65,45 @@ main.main div.inside-main  {
     height: 350px;
     width: 100%;
 }
-main.main section.column  {
+main.main div.column  {
     float: left;
     height: 100%;
     width: 33.3%;
 }
-main.main section.column  {
+main.main div.column  {
     padding-left: 10px;
     padding-right: 10px;
 }
-section.column img  {
+div.column img  {
     cursor: pointer;
     margin-top: 10px;
     width: 100%;
 }
-section.column:nth-child(1) img:nth-child(1)  {
+div.column:nth-child(1) img:nth-child(1)  {
     height: 150px;
 }
-section.column:nth-child(1) img:nth-child(2)  {
+div.column:nth-child(1) img:nth-child(2)  {
     height: 100px;
 }
-section.column:nth-child(1) img:nth-child(3)  {
+div.column:nth-child(1) img:nth-child(3)  {
     height: 50px;
 }
-section.column:nth-child(2) img:nth-child(1)  {
+div.column:nth-child(2) img:nth-child(1)  {
     height: 50px;
 }
-section.column:nth-child(2) img:nth-child(2)  {
+div.column:nth-child(2) img:nth-child(2)  {
     height: 100px;
 }
-section.column:nth-child(2) img:nth-child(3)  {
+div.column:nth-child(2) img:nth-child(3)  {
     height: 150px;
 }
-section.column:nth-child(3) img:nth-child(1)  {
+div.column:nth-child(3) img:nth-child(1)  {
     height: 75px;
 }
-section.column:nth-child(3) img:nth-child(2)  {
+div.column:nth-child(3) img:nth-child(2)  {
     height: 150px;
 }
-section.column:nth-child(3) img:nth-child(3)  {
+div.column:nth-child(3) img:nth-child(3)  {
     height: 75px;
 }
 main.main div.modal-box  {
@@ -179,34 +179,34 @@ header.header div.social  {
 main.main div.inside-main  {
     height: 500px;
 }
-section.column img  {
+div.column img  {
     float: none;
 }
-section.column:nth-child(1) img:nth-child(1)  {
+div.column:nth-child(1) img:nth-child(1)  {
     height: 200px;
 }
-section.column:nth-child(1) img:nth-child(2)  {
+div.column:nth-child(1) img:nth-child(2)  {
     height: 150px;
 }
-section.column:nth-child(1) img:nth-child(3)  {
+div.column:nth-child(1) img:nth-child(3)  {
     height: 100px;
 }
-section.column:nth-child(2) img:nth-child(1)  {
+div.column:nth-child(2) img:nth-child(1)  {
     height: 100px;
 }
-section.column:nth-child(2) img:nth-child(2)  {
+div.column:nth-child(2) img:nth-child(2)  {
     height: 150px;
 }
-section.column:nth-child(2) img:nth-child(3)  {
+div.column:nth-child(2) img:nth-child(3)  {
     height: 200px;
 }
-section.column:nth-child(3) img:nth-child(1)  {
+div.column:nth-child(3) img:nth-child(1)  {
     height: 125px;
 }
-section.column:nth-child(3) img:nth-child(2)  {
+div.column:nth-child(3) img:nth-child(2)  {
     height: 200px;
 }
-section.column:nth-child(3) img:nth-child(3)  {
+div.column:nth-child(3) img:nth-child(3)  {
     height: 125px;
 }
 div.modal-box div.frame-img  {
@@ -227,34 +227,34 @@ main.main div.inside-main  {
     margin-right: auto;
     width: 500px;
 }
-section.column img  {
+div.column img  {
     width: 140px;
 }
-section.column:nth-child(1) img:nth-child(1)  {
+div.column:nth-child(1) img:nth-child(1)  {
     height: 250px;
 }
-section.column:nth-child(1) img:nth-child(2)  {
+div.column:nth-child(1) img:nth-child(2)  {
     height: 200px;
 }
-section.column:nth-child(1) img:nth-child(3)  {
+div.column:nth-child(1) img:nth-child(3)  {
     height: 150px;
 }
-section.column:nth-child(2) img:nth-child(1)  {
+div.column:nth-child(2) img:nth-child(1)  {
     height: 150px;
 }
-section.column:nth-child(2) img:nth-child(2)  {
+div.column:nth-child(2) img:nth-child(2)  {
     height: 200px;
 }
-section.column:nth-child(2) img:nth-child(3)  {
+div.column:nth-child(2) img:nth-child(3)  {
     height: 250px;
 }
-section.column:nth-child(3) img:nth-child(1)  {
+div.column:nth-child(3) img:nth-child(1)  {
     height: 175px;
 }
-section.column:nth-child(3) img:nth-child(2)  {
+div.column:nth-child(3) img:nth-child(2)  {
     height: 250px;
 }
-section.column:nth-child(3) img:nth-child(3)  {
+div.column:nth-child(3) img:nth-child(3)  {
     height: 175px;
 }
 div.modal-box div.frame-img  {
@@ -272,7 +272,7 @@ header.header  {
 main.main div.inside-main  {
     width: 800px;
 }
-section.column img  {
+div.column img  {
     width: 245px;
 }
 }
