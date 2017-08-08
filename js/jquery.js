@@ -9,6 +9,13 @@ $(document).ready(function () {
         $('.line-btn:nth-child(3)').toggleClass('rotate-second');
     });
     
+    $('.mobile-nav li').hover(function () {
+        $(this).css('border-bottom', '2px solid green'); 
+    },
+    function() {
+        $(this).css('border-bottom', '2px solid transparent');
+    });
+    
     //Title under the image profil is appeared
     var $h1Title = $('.title h1'),
         $h2Title = $('.title h2'),
