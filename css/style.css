@@ -48,8 +48,8 @@ nav.navi  {
     box-shadow: 1px 1px 30px #ffffff;
     display: none;
     float: left;
-    height: 140px;
-    padding-top: 5px;
+    height: 155px;
+    padding-top: 0px;
     width: 60%;
 }
 nav ul.mobile-nav  {
@@ -61,6 +61,7 @@ nav ul.mobile-nav  {
     text-align: center;
 }
 ul.mobile-nav li  {
+    border: 2px solid transparent;
     cursor: pointer;
     margin-top: 5px;
 }
@@ -71,7 +72,7 @@ header div.title  {
     color: #ffffff;
     bottom: 0;
     font-family: 'Tangerine', cursive;
-    height: 180px;
+    height: 160px;
     left: 10px;
     position: absolute;
     text-align: center;
