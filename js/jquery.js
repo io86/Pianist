@@ -10,11 +10,11 @@ $(document).ready(function () {
     });
     
     $('.mobile-nav li').hover(function () {
-        $(this).css('border-bottom', '2px solid green'); 
+        $(this).css('border-bottom', '2px solid green');
     },
-    function() {
-        $(this).css('border-bottom', '2px solid transparent');
-    });
+        function () {
+            $(this).css('border-bottom', '2px solid transparent');
+        });
     
     //Title under the image profil is appeared
     var $h1Title = $('.title h1'),
@@ -37,19 +37,19 @@ $(document).ready(function () {
     }
     
     $('.about-mobile, .about-black').click(function () {
-        scrolledArea($('.about')); 
+        scrolledArea($('.about'));
     });
     
     $('.concerts-mobile, .concerts-black').click(function () {
-        scrolledArea($('.concerts')); 
+        scrolledArea($('.concerts'));
     });
     
     $('.calendar-mobile, .calendar-black').click(function () {
-        scrolledArea($('.availability')); 
+        scrolledArea($('.availability'));
     });
     
     $('.contact-mobile, .contact-black').click(function () {
-        scrolledArea($('.contact')); 
+        scrolledArea($('.contact'));
     });
     
     $('.green').click(function () {
@@ -57,7 +57,7 @@ $(document).ready(function () {
     });
     
     $('.back-top').click(function () {
-        scrolledArea($('header')); 
+        scrolledArea($('header'));
     });
 	
 });
