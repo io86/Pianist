@@ -17,27 +17,27 @@ $(document).ready(function () {
     //Change image when is clicked
     $('.modal-box img').click(function () {
         var srcActive = $('.modal-box img').attr('src'),
-            x = srcArray.indexOf(srcActive);
+            indexOfSrc = srcArray.indexOf(srcActive);
         
-        if(x === 8) {
-            x = -1;
+        if (indexOfSrc === 8) {
+            indexOfSrc = -1;
         }
         
-        $('.modal-box img').attr('src', srcArray[x+1]);
+        $('.modal-box img').attr('src', srcArray[indexOfSrc + 1]);
 
     });
     
     //Hover effect on image
     $('.frame-img img').hover(function () {
-        $(this).css('box-shadow', '2px 2px 10px #000000'); 
+        $(this).css('box-shadow', '2px 2px 10px #000000');
     },
-    function() {
-        $(this).css('box-shadow', 'none'); 
-    });
+        function () {
+            $(this).css('box-shadow', 'none');
+        });
     
     //Close modal-box
     $('.close').click(function () {
-        $('.modal-box').css('display', 'none'); 
+        $('.modal-box').css('display', 'none');
     });
     
 });
