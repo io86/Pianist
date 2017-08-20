@@ -1,12 +1,17 @@
 $(document).ready(function () {
-	
+    var $h1Title = $('.title h1'),
+        $h2Title = $('.title h2'),
+        $imgProfil = $('.img-profil');
+        
+    
+    
     $('.btn-menu').click(function () {
         $('.navi').slideToggle();
         
-        $('.line-btn:nth-child(1)').toggle();
+        $('.line-btn:eq(0)').toggle();
         
-        $('.line-btn:nth-child(2)').toggleClass('rotate-first');
-        $('.line-btn:nth-child(3)').toggleClass('rotate-second');
+        $('.line-btn:eq(1)').toggleClass('rotate-first');
+        $('.line-btn:eq(2)').toggleClass('rotate-second');
     });
     
     $('.mobile-nav li').hover(function () {
@@ -16,23 +21,18 @@ $(document).ready(function () {
             $(this).css('border-bottom', '2px solid transparent');
         });
     
-    //Title under the image profil is appeared
-    var $h1Title = $('.title h1'),
-        $h2Title = $('.title h2'),
-        $imgProfil = $('.img-profil');
-    
-    function title(x, y) {
-        x.delay(y).fadeIn();
+    //Title under the image profil is appeared    
+    function title(d1, d2) {
+        $h1Title.delay(d1).fadeIn();
+        $h2Title.delay(d2).fadeIn();
     }
     
-
-    title($h1Title, 500);
-    title($h2Title, 1000);
+    title(500, 1000);
+     
 	
     //Scroll until the appropriate area
     function scrolledArea(el) {
         var elOffset = el.offset().top;
-        
         $('html, body').animate({scrollTop: elOffset}, 800);
     }
     

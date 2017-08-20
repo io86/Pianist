@@ -5,11 +5,9 @@ $(document).ready(function () {
     
     //Display image that is clicked
     $('.inside-main img').click(function () {
-
         var src = $(this).attr('src');
         
         $('.modal-box').css('display', 'block');
-        
         $('.modal-box img').attr('src', src);
         
     });
