@@ -15,7 +15,7 @@ footer, header, main, nav, section  {
     max-width: 2400px;
     width: 100%;
 }
-header.header  {
+.header  {
     background-image: url('../img/piano_1.jpg');
     -webkit-background-size: cover; /*Chrome 1.0-4.0, Opera 10.0-10.5*/
     -moz-background-size: cover; /*Safari 3.6-4.0*/
@@ -24,7 +24,7 @@ header.header  {
     position: relative;
     width: 100%;
 }
-header div.btn-menu  {
+header .btn-menu  {
     background-color: #000000;
     float: left;
     height: 40px;
@@ -32,17 +32,17 @@ header div.btn-menu  {
     position: relative;
     width: 40px;
 }
-header div.line-btn  {
+header .line-btn  {
     background-color: darkGray;
     height: 3px;
     margin-left: auto;
     margin-right: auto;
     width: 25px;
 }
-div.line-btn:nth-child(2), div.line-btn:nth-child(3)  {
+.line-btn:nth-child(2), .line-btn:nth-child(3)  {
     margin-top: 4px;
 }
-nav.navi  {
+.navi  {
     background: rgb(52, 49, 49);
     background-color: rgba(52, 49, 49, 0.5);
     box-shadow: 1px 1px 30px #ffffff;
@@ -52,7 +52,7 @@ nav.navi  {
     padding-top: 0px;
     width: 60%;
 }
-nav ul.mobile-nav  {
+nav .mobile-nav  {
     color: #ffffff;
     font-family: 'Open Sans',sans-serif;
     margin-top: 0;
@@ -60,22 +60,22 @@ nav ul.mobile-nav  {
     list-style-type: none;
     text-align: center;
 }
-ul.mobile-nav li.gallery-mobile a:link, div.gallery-black a:link  {
+.mobile-nav .gallery-mobile a:link, .gallery-black a:link  {
     color: #ffffff;
     text-decoration: none;
 }
-ul.mobile-nav li.gallery-mobile a:visited, div.gallery-black a:visited  {
+.mobile-nav .gallery-mobile a:visited, .gallery-black a:visited  {
     color: #ffffff;
 }
-ul.mobile-nav li  {
+.mobile-nav li  {
     border: 2px solid transparent;
     cursor: pointer;
     margin-top: 5px;
 }
-nav div.piano  {
+nav .piano  {
     display: none;
 }
-header div.title  {
+header .title  {
     color: #ffffff;
     bottom: 0;
     font-family: 'Tangerine', cursive;
@@ -85,7 +85,7 @@ header div.title  {
     text-align: center;
     width: 80%;
 }
-div.title div.img-profil  {
+.title .img-profil  {
     border: 1px solid #ffffff;
     border-radius: 50%;
     height: 80px;
@@ -94,7 +94,7 @@ div.title div.img-profil  {
     padding: 2px;
     width: 80px;
 }
-div.img-profil img  {
+.img-profil img  {
     border-radius: 50%;
     height: 100%;
     width: 100%;
@@ -111,41 +111,41 @@ main  {
     font-family: 'Open Sans',sans-serif;
     width: 100%;
 }
-main section.about  {
+main .about  {
     padding-top: 50px;
     width: 100%;
 }
-section.about h2  {
+.about h2  {
     color: #4A4A4A;
     letter-spacing: 3px;
     margin-top: 0;
     text-align: center;
 }
-section.about div.text-img-about  {
+.about .text-img-about  {
     margin-top: 100px;
     padding-bottom: 100px;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
 }
-section.about img  {
+.about img  {
     float: left;
     height: 150px;
     margin-right: 15px;
     width: 60%;
 }
-section.about p  {
+.about p  {
     font-size: 0.9em;
     text-align: justify;
 }
-section.about p:last-child  {
+.about p:last-child  {
     margin-top: 50px;
 }
-section.about span.green  {
+.about .green  {
     color: green;
     cursor: pointer;
 }
-main section.concerts  {
+main .concerts  {
     background-image: url('../img/concerts.jpg');
     -webkit-background-size: cover; /*Chrome 1.0-4.0, Opera 10.0-10.5*/
     -moz-background-size: cover; /*Safari 3.6-4.0*/
@@ -154,13 +154,13 @@ main section.concerts  {
     padding-top: 50px;
     width: 100%;
 }
-section.concerts h2  {
+.concerts h2  {
     color: #ffffff;
     letter-spacing: 3px;
     margin-top: 0;
     text-align: center;
 }
-section.concerts div.live-concert  {
+.concerts .live-concert  {
     background-color: #f2f2f2;
     float: left;
     margin-top: 50px;
@@ -169,27 +169,27 @@ section.concerts div.live-concert  {
     padding-right: 5px;
     width: 80%;
 }
-section.concerts div.live-concert:nth-child(2)  {
+.concerts .live-concert:nth-child(2)  {
     margin-top: 50px;
 }
-div.live-concert p.date  {
+.live-concert .date  {
     color: #542576;
     font-size: 1.3em;
     margin-bottom: 0;
     margin-top: 10px;
     text-align: right;
 }
-div.live-concert p.place  {
+.live-concert .place  {
     color: #542576;
     margin-top: 0;
     text-align: right;
 }
-div.live-concert p.inform-concert  {
+.live-concert .inform-concert  {
     color: #4A4A4A;
     font-size: 0.9em;
     margin-top: 50px;
 }
-div.live-concert button  {
+.live-concert button  {
     background-color: #542576;
     border: none;
     color: #f2f2f2;
@@ -199,68 +199,68 @@ div.live-concert button  {
     margin-top: 40px;
     padding: 5px 4px;
 }
-main section.availability  {
+main .availability  {
     padding-bottom: 100px;
     padding-top: 50px;
     width: 100%;
 }
-section.availability h2  {
+.availability h2  {
     color: #4A4A4A;
     letter-spacing: 3px;
     margin-top: 0;
     text-align: center;
 }
-section.availability p.check-aval  {
+.availability .check-aval  {
     font-style: italic;
     font-size: 0.7em;
     margin-left: 10px;
     margin-top: 80px;
 }
-section.availability div.green-box  {
+.availability .green-box  {
     background-color: green;
     float: left;
     height: 6px;
     margin-left: 10px;
     width: 6px;
 }
-section.availability p.aval-dates  {
+.availability .aval-dates  {
     float: left;
     font-size: 0.7em;
     margin-left: 10px;
     margin-top: -5px;
 }
-section.availability div.calendar  {
+.availability .calendar  {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     width: 200px;
 }
-div.calendar div.months  {
+.calendar .months  {
     background-color: #000000;
     color: #ffffff;
     padding-bottom: 20px;
     width: 100%;
 }
-div.months ul.list-months  {
+.months .list-months  {
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 0;
     padding-left: 0;
     padding-top: 10px;
 }
-ul.list-months li  {
+.list-months li  {
     text-align: center;
 }
-div.months p  {
+.months p  {
     color: #ffffff;
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
 }
-div.calendar div.days  {
+.calendar .days  {
     background-color: #808080;
 }
-div.days ul.list-days  {
+.days .list-days  {
     font-size: 0.7em;
     list-style-type: none;
     margin-bottom: 0;
@@ -269,13 +269,13 @@ div.days ul.list-days  {
     padding-top: 10px;
     text-align: center;
 }
-ul.list-days li  {
+.list-days li  {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px;
     width: 12.5%;
 }
-div.calendar div.days-of-month  {
+.calendar .days-of-month  {
     background-color: #C0C0C0;
     padding-left: 3px;
     padding-right: 3px;
@@ -292,7 +292,10 @@ table td  {
 td:nth-child(5), td:nth-child(6), td:nth-child(13), td:nth-child(21), td:nth-child(25) {
     background-color: green;
 }
-main section.contact  {
+.three-ball  {
+    display: none;
+}
+main .contact  {
     background-image: url('../img/foto_3.jpg');
     -webkit-background-size: cover; /*Chrome 1.0-4.0, Opera 10.0-10.5*/
     -moz-background-size: cover; /*Safari 3.6-4.0*/
@@ -301,13 +304,13 @@ main section.contact  {
     padding-top: 50px;
     width: 100%;
 }
-section.contact h2  {
+.contact h2  {
     color: #ffffff;
     letter-spacing: 3px;
     margin-top: 0;
     text-align: center;
 }
-section.contact form  {
+.contact form  {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -346,7 +349,7 @@ form input[type=submit]  {
     padding-top: 13px;
     width: 80%;
 }
-section.contact i  {
+.contact i  {
     border: 1px solid silver;
     color: silver;
     cursor: pointer;
@@ -356,7 +359,7 @@ section.contact i  {
     margin-top: 70px;
     padding: 5px 10px;
 }
-footer.footer  {
+.footer  {
     background-color: #000000;
     font-family: 'Open Sans',sans-serif;
     font-style: italic;
@@ -365,7 +368,7 @@ footer.footer  {
     padding-top: 5px;
     width: 100%;
 }
-footer.footer p  {
+.footer p  {
     color: #ffffff;
     text-align: center;
 }
@@ -394,17 +397,17 @@ footer.footer p  {
     background-color: green;
 }
 @media only screen and (min-width: 321px){
-header.header  {
+.header  {
     height: 400px;
 }
-nav.navi  {
+.navi  {
     height: 150px;
     width: 250px;
 }
-nav.navi ul.mobile-nav  {
+.navi .mobile-nav  {
     display: none;
 }
-nav div.piano  {
+nav .piano  {
     background-color: #ffffff;
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
@@ -417,13 +420,13 @@ nav div.piano  {
     position: relative;
     width: 200px;
 }
-nav div.white  {
+nav .white  {
     border-right: 1px solid #000000;
     float: left;
     height: 100%;
     width: 28.42px;
 }
-nav div.black  {
+nav .black  {
     background-color: #000000;
     color: #ffffff;
     cursor: pointer;
@@ -433,38 +436,38 @@ nav div.black  {
     position: absolute;
     width: 20px;
 }
-nav div.black:nth-child(8)  {
+nav .black:nth-child(8)  {
     left: 18px;
     top: 0;
 }
-nav div.black:nth-child(9)  {
+nav .black:nth-child(9)  {
     left: 47px;
     top: 0;
 }
-nav div.black:nth-child(10)  {
+nav .black:nth-child(10)  {
     left: 103px;
     top: 0;
 }
-nav div.black:nth-child(11)  {
+nav .black:nth-child(11)  {
     left: 132px;
     top: 0;
 }
-nav div.black:nth-child(12)  {
+nav .black:nth-child(12)  {
     left: 160px;
     top: 0;
 }
-div.black p  {
+.black p  {
     color: #ffffff;
     font-size: 0.6em;
     font-weight: bold;
     line-height: 10px;
     margin-top: 0;
 }
-header div.title  {
+header .title  {
     height: 200px;
     width: 280px;
 }
-div.title div.img-profil  {
+.title .img-profil  {
     height: 100px;
     width: 100px;
 }
@@ -474,50 +477,50 @@ header h1  {
 header h2  {
     font-size: 2em;
 }
-section.about h2  {
+.about h2  {
     letter-spacing: 5px;
 }
-section.about div.text-img-about  {
+.about .text-img-about  {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
-section.about img  {
+.about img  {
     height: 150px;
     width: 150px;
 }
-section.about p  {
+.about p  {
     font-size: 1em;
 }
-main section.concerts  {
+main .concerts  {
     padding-top: 70px;
 }
-section.concerts h2  {
+.concerts h2  {
     letter-spacing: 5px;
 }
-section.concerts div.live-concert  {
+.concerts .live-concert  {
     clear: left;
     margin-top: 80px;
     padding-left: 15px;
     padding-right: 10px;
     width: 280px;
 }
-section.concerts div.live-concert:nth-child(2)  {
+.concerts .live-concert:nth-child(2)  {
     margin-top: 80px;
 }
-section.availability h2  {
+.availability h2  {
     letter-spacing: 5px;
 }
-section.availability p.check-aval  {
+.availability .check-aval  {
     font-size: 0.9em;
 }
-section.availability div.calendar  {
+.availability .calendar  {
     width: 300px;
 }
-div.days ul.list-days  {
+.days .list-days  {
     font-size: 1em;
 }
-div.calendar div.days-of-month  {
+.calendar .days-of-month  {
     padding-left: 4px;
     padding-right: 4px;
 }
@@ -527,11 +530,32 @@ table td  {
     padding-top: 6px;
     width: 37px;
 }
-section.contact form  {
+.three-ball  {
+    display: block;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+.three-ball-inner  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.ball  {
+    border: 2px solid #000000;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.contact form  {
     padding-left: 10px;
     width: 300px;
 }
-section.contact h2  {
+.contact h2  {
     letter-spacing: 5px;
 }
 form input[type=text]  {
@@ -545,51 +569,51 @@ form input[type=submit]  {
 }
 }
 @media only screen and (min-width: 600px){
-header.header  {
+.header  {
     height: 600px;
 }
-nav.navi  {
+.navi  {
     height: 250px;
     margin-left: 30px;
     width: 450px;
 }
-nav div.piano  {
+nav .piano  {
     height: 200px;
     width: 350px;
 }
-nav div.white  {
+nav .white  {
     width: 49.85px;
 }
-nav div.black  {
+nav .black  {
     height: 125px;
     padding-left: 10px;
     width: 35px;
 }
-nav div.black:nth-child(8)  {
+nav .black:nth-child(8)  {
     left: 33px;
 }
-nav div.black:nth-child(9)  {
+nav .black:nth-child(9)  {
     left: 82px;
 }
-nav div.black:nth-child(10)  {
+nav .black:nth-child(10)  {
     left: 181px;
 }
-nav div.black:nth-child(11)  {
+nav .black:nth-child(11)  {
     left: 232px;
 }
-nav div.black:nth-child(12)  {
+nav .black:nth-child(12)  {
     left: 282px;
 }
-div.black p  {
+.black p  {
     font-style: italic;
     font-size: 0.8em;
     line-height: 15px;
 }
-header div.title  {
+header .title  {
     height: 300px;
     width: 400px;
 }
-div.title div.img-profil  {
+.title .img-profil  {
     height: 130px;
     width: 130px;
 }
@@ -599,42 +623,42 @@ header h1  {
 header h2  {
     font-size: 2.5em;
 }
-section.about h2  {
+.about h2  {
     font-size: 2em;
     letter-spacing: 15px;
 }
-section.about div.text-img-about  {
+.about .text-img-about  {
     width: 500px;
 }
-section.about img  {
+.about img  {
     height: 300px;
     width: 200px;
 }
-main section.concerts  {
+main .concerts  {
     height: 2000px;
 }
-section.concerts h2  {
+.concerts h2  {
     font-size: 2em;
     letter-spacing: 15px;
 }
-section.concerts div.live-concert  {
+.concerts .live-concert  {
     width: 400px;
 }
-section.availability h2  {
+.availability h2  {
     font-size: 2em;
     letter-spacing: 15px;
 }
-section.availability p.check-aval  {
+.availability .check-aval  {
     margin-left: 25px;
 }
-section.availability div.green-box  {
+.availability .green-box  {
     margin-left: 25px;
 }
-section.contact form  {
+.contact form  {
     padding-left: 25px;
     width: 400px;
 }
-section.contact h2  {
+.contact h2  {
     font-size: 2em;
     letter-spacing: 15px;
 }
@@ -649,20 +673,20 @@ form input[type=submit]  {
 }
 }
 @media only screen and (min-width: 801px){
-header.header  {
+.header  {
     height: 600px;
 }
-section.about div.text-img-about  {
+.about .text-img-about  {
     width: 700px;
 }
-section.about img  {
+.about img  {
     height: 400px;
     width: 300px;
 }
-main section.concerts  {
+main .concerts  {
     height: 1900px;
 }
-section.concerts div.live-concert  {
+.concerts .live-concert  {
     width: 600px;
 }
 }
